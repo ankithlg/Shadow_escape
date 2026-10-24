@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0334860c064b47868fa28eef817888, type: 3}
+  m_Name: level1
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  levelName: Level 1
+  playerStart: {x: -7.5, y: -3.5}
+  exitPosition: {x: 8, y: 3.7}
+  wallPrefab: {fileID: 4499115205678997093, guid: 1e13912dcdef64068ba7e5128b18ff7f, type: 3}
+  exitPrefab: {fileID: 6737665328835010651, guid: 2c3ce35e253394576bb3c72453cc5955, type: 3}
+  enemies:
+  - type: 0
+    position: {x: 0, y: 3.7}
+    patrolDistance: 3
+    guardAngle: 45
+  - type: 0
+    position: {x: 1, y: -3.7}
+    patrolDistance: 3
+    guardAngle: 45
+  - type: 0
+    position: {x: -4.5, y: 2}
+    patrolDistance: 3
+    guardAngle: 45
+  - type: 0
+    position: {x: 3.5, y: 1.9}
+    patrolDistance: 3
+    guardAngle: 45
+  - type: 0
+    position: {x: -1, y: -2}
+    patrolDistance: 3
+    guardAngle: 45
+  - type: 0
+    position: {x: -3, y: -0.1}
+    patrolDistance: 3
+    guardAngle: 45
